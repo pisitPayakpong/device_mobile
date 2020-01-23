@@ -1,14 +1,10 @@
 {
   "expo": {
-    "name": "multi_01",
-    "slug": "multi_01",
+    "name": "device mobile",
+    "slug": "device-mobile",
     "privacy": "public",
     "sdkVersion": "35.0.0",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,12 +16,14 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
-    "description": ""
+    "description": "library device mobile",
+    "githubUrl": "https://github.com/pisitPayakpong/device_mobile",
+    "android": {
+      "package": "com.pisit.device_mobile"
+    }
   }
 }
